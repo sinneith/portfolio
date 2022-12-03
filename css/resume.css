@@ -1,0 +1,28 @@
+.resume > .wrapper {
+  display: flex;
+  font-size: var(--smallFont);
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px !important;
+}
+.resume > .wrapper > div {
+  line-height: 50px;
+}
+.resume_header {
+  display: inline-block;
+  padding: 5px 20px 0;
+  box-sizing: border-box;
+  border-radius: 30px;
+  color: var(--greyBg);
+  background-color: var(--black);
+  margin-bottom: 30px;
+}
+.resume > .wrapper > .left > .top {
+  margin-bottom: 100px;
+}
+.resume > .wrapper > .right > .top {
+  margin-bottom: 50px;
+}
+.resume > .wrapper > .right > .bottom > .badges {
+  font-size: var(--middleFont);
+}

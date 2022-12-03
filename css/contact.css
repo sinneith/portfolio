@@ -1,0 +1,52 @@
+.contact > .wrapper {
+  position: relative;
+}
+.contact_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact_profile > img {
+  display: block;
+  width: 65%;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin: 0 auto;
+}
+.contact_container > p {
+  text-align: center;
+  margin: 50px 0;
+  color: rgb(158, 158, 158);
+  font-size: 24px;
+  line-height: 40px;
+  word-break: keep-all;
+  font-weight: 200;
+}
+.contact_container > ul {
+  font-size: 60px;
+  line-height: 80px;
+}
+.contact_container > ul > li {
+  width: max-content;
+  margin: 0 auto;
+  font-weight: 200;
+}
+#mail {
+  cursor: pointer;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+#mail > span {
+  opacity: 0;
+  font-size: 20px;
+}
+#mail:hover span {
+  opacity: 1;
+}
+.contact_container > ul > li:last-child {
+  margin-top: 50px;
+  font-size: 80px;
+}

@@ -1,0 +1,39 @@
+.introduce > .wrapper {
+  font-size: var(--middleFont);
+  padding: 250px 100px !important;
+  box-sizing: border-box;
+}
+.introduce > .wrapper > div {
+  display: flex;
+  justify-content: space-around;
+}
+.introduce > .wrapper > .top > .right > div {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.introduce > .wrapper > .bottom {
+  font-size: var(--smallFont);
+  line-height: 50px;
+  align-items: center;
+  text-align: justify;
+  padding: 30px 60px 0;
+  box-sizing: border-box;
+}
+.introduce > .wrapper > .bottom > .left {
+  margin-right: 100px;
+  display: block;
+}
+.introduce > .wrapper > .bottom > .left > img {
+  width: 400px;
+}
+.introduce > .wrapper > .bottom > .right {
+  font-size: 26px;
+  line-height: 44px;
+  font-weight: 300;
+}
+.introduce > .wrapper > .bottom span {
+  line-height: 80px;
+}
+.introduce > .wrapper > .bottom span > i {
+  font-weight: 400;
+}

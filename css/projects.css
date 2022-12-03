@@ -1,0 +1,218 @@
+/* 프로젝트 */
+.projects > .wrapper {
+  padding: 130px 80px 0;
+}
+.projects > .wrapper > .slider {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+.fa-chevron-left,
+.fa-chevron-right {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  font-size: var(--middleFont);
+  color: var(--grey);
+  transform: translate(0, -50%);
+}
+.fa-chevron-left:hover,
+.fa-chevron-right:hover {
+  color: var(--black);
+}
+.fa-chevron-left {
+  left: 0;
+}
+.fa-chevron-right {
+  right: 0;
+}
+.projects > .wrapper > .slider > .slider_container {
+  position: relative;
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slider_container > .content_wrapper {
+  height: 100%;
+  position: relative;
+}
+.slider_container > .content_wrapper > li {
+  width: 1200px;
+  height: 100%;
+  float: left;
+}
+.slider_container > .content_wrapper.animated {
+  transition: left 0.5s ease-in-out;
+}
+
+.project_name {
+  display: inline-block;
+  background-color: var(--black);
+  color: white;
+  font-size: var(--smallFont);
+  font-weight: bold;
+  padding: 15px 20px 8px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  margin-bottom: 40px;
+}
+.project_group {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.project_group > div {
+  width: 100%;
+  height: 100%;
+  word-break: keep-all;
+}
+.project_group > .left {
+  padding-left: 10px;
+}
+.project_group > .left > a > img {
+  width: 90%;
+  margin-bottom: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.project_group > .left > a > .mobile {
+  display: none;
+}
+.project_group > .left > ul {
+  width: 90%;
+  font-size: 20px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.project_group > .left > ul > li > a {
+  color: var(--greyBg);
+  padding: 12px 20px 8px;
+  box-sizing: border-box;
+  background-color: var(--grey);
+  border-radius: 35px;
+  margin-right: 20px;
+  transition: 0.1s;
+}
+.project_group > .left > ul > li > a > i {
+  color: var(--greyBg);
+  font-size: 16px;
+  position: relative;
+  top: -3px;
+}
+.project_group > .left > ul > li > a:hover,
+.project_group > .left > ul > li > a:hover i {
+  color: var(--grey);
+  background-color: var(--black);
+}
+.project_group > .left > p,
+.project_group > .top > p {
+  font-size: 22px;
+  color: rgb(109, 109, 109);
+}
+.project_group > .right {
+  font-size: 26px;
+  padding: 50px 0 0 40px;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+.project_group > .right > .overview > li {
+  list-style: disc;
+}
+.project_group > .right > .tag_group {
+  display: flex;
+  margin: 30px 0;
+  height: 50px;
+  line-height: 53px;
+}
+.project_group > .right > .tag_group > li {
+  font-size: 22px;
+  color: white;
+  background-color: var(--black);
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+.horizontal {
+  display: block;
+}
+.horizontal > .left {
+  height: 55%;
+  margin: 0 auto;
+  text-align: center;
+}
+.horizontal > .left > p {
+  text-align: right;
+  padding-right: 60px;
+  box-sizing: border-box;
+}
+.wflix > .left {
+  width: 80%;
+  height: 50%;
+}
+.wflix > .left > a > img {
+  height: 100%;
+}
+.wflix > .right {
+  margin-top: 30px;
+}
+
+/* 프로젝트 2 */
+.projects02 > .wrapper {
+  position: relative;
+}
+.projects02 > .wrapper > .container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 200px 80px 0 !important;
+  box-sizing: border-box;
+}
+.projects02 > .wrapper > .container > .resume_header {
+  font-size: var(--smallFont);
+  padding: 14px 24px 10px;
+}
+.project_container {
+  display: grid;
+  grid-gap: 10px;
+  width: 100%;
+  height: 60%;
+  margin: 50px auto 0;
+  grid-template-columns: repeat(4, 1fr);
+}
+.project_container > .box {
+  width: 100%;
+  height: 100%;
+}
+.project_container > .box:hover .black {
+  opacity: 0;
+}
+.project_container > .box > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.project_container > .box > a > * {
+  width: 100%;
+  height: 100%;
+}
+.black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.2s;
+  font-size: 22px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
